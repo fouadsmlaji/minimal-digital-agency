@@ -1,0 +1,442 @@
+/* hero section */
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main{
+    margin-top: 70px;
+}
+
+.left-hero,
+.right-hero {
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-hero h1 {
+    font-weight: 900;
+    font-size: 3.1rem;
+    font-family: "Merriweather", serif;
+}
+
+.left-hero p {
+    font-weight: 500;
+    font-size: 1rem;
+    max-width: 500px;
+    padding-block: 10px;
+}
+
+.left-hero button {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-block: 12px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: black;
+    border: black solid 1px;
+    color: white;
+    border-radius: 9999px;
+    transition: all 0.5s;
+}
+
+.left-hero button:hover{
+    background-color: white;
+    color:black;
+
+}
+
+/* Our Approach section */
+
+
+.approach-section {
+    margin-top: 50px;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+h2 {
+
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 2.8rem;
+    font-family: "Merriweather", serif;
+}
+
+.approach-card {
+    border: none;
+    background: transparent;
+}
+
+.approach-card h5 {
+    color: #343a40;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+}
+
+.approach-card p {
+    color: #6c757d;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+
+
+.customers-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.customers-section h2 {
+
+    margin-bottom: 40px;
+}
+
+.customer-card {
+
+    border-radius: 0.5rem;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.customer-card h5 {
+    color: #343a40;
+    font-weight: 500;
+}
+
+.customer-card p {
+    color: #6c757d;
+}
+
+.customer-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.customer-card ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.customer-card ul li::before {
+    content: "\f00c";
+    /* FontAwesome check mark */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #007bff;
+}
+
+
+
+
+
+.pricing {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.pricing p {
+    color: rgb(84, 84, 84);
+}
+
+.price-card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(224, 224, 224);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgb(200, 200, 200);
+}
+
+.price-card p {
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+
+.price-card h5 {
+    
+    font-weight: 600;
+    font-size: 2.4rem;
+    background: linear-gradient(to right, #9660cf, rgb(62, 116, 255), #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.price-card span {
+    font-weight: 500;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.price-description {
+    border-bottom: 1px rgb(223, 223, 223) solid;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.price-check {
+    padding: 10px;
+    padding-left:1.2rem ;
+    padding-right:1.2rem;
+    display: flex;
+}
+
+.price-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-features li {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.price-features li i {
+    color: #4CAF50;
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.most-popular {
+    background-image: linear-gradient(to right, #9660cf, rgb(62, 116, 255), #9660cf);
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.no-popular {
+    height: 30px;
+    width: 100%;
+}
+
+.most-popular span {
+    padding-block: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+    .price-card {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .price-card {
+        margin-top: 20px;
+    }
+
+    .most-popular span {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .price-card {
+        margin-top: 20px;
+    }
+
+    .price-description {
+        padding: 5px;
+        padding-left: 15px;
+    }
+
+    .price-card h5 {
+        font-size: 2rem;
+    }
+
+    .price-card span {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .price-card {
+        margin-top: 20px;
+    }
+
+    .price-description {
+        padding: 5px;
+        padding-left: 10px;
+    }
+
+    .price-card h5 {
+        font-size: 1.8rem;
+    }
+
+    .price-card span {
+        font-size: 0.6rem;
+    }
+}
+
+
+
+
+
+
+.custom-carousel-caption {
+    bottom: 20%;
+}
+
+.testimonial-box {
+    background: rgba(22, 22, 22, 0.8);
+    padding: 20px;
+    border-radius: 9999px;
+    text-align: center;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.custom-carousel-item {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#card1{
+    margin-top: 70px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .custom-carousel-caption {
+        bottom: 10%;
+    }
+
+    .testimonial-box {
+        padding: 15px;
+    }
+
+    .carousel-item {
+        height: 400px;
+    }
+
+    #card1{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        bottom: 5%;
+    }
+
+    .testimonial-box {
+        padding: 10px;
+    }
+
+    .carousel-item {
+        height: 650px;
+    }
+
+    .testimonial-box {
+
+        padding: 20px;
+        padding-block: 60px;
+    }
+
+   
+}
+
+@media (max-width: 375px) {
+    .carousel-caption {
+        bottom: 2%;
+    }
+
+    .testimonial-box {
+        padding: 10px;
+        padding-block: 60px;
+    }
+
+    .carousel-item {
+        height: 700px;
+    }
+
+   
+}
+
+.button{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-block: 8px;
+    padding-left: 26px;
+    padding-right: 26px ;
+    background-color: black;
+    border: black solid 1px;
+    color: white;
+    transition: all 0.5s
+}
+
+.button:hover{
+     background-color: white;
+    color:black;
+    border: black 1px solid;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img{
+        display: flex;
+    }
+
+    .right-hero{
+        display: none;
+    }
+
+    .right-img{
+        width: 200px;
+    }
+  }
+
+  @media screen and (min-width: 450px) {
+    
+    
+
+    .hero-img{
+        display: none;
+    }
+
+    .right-hero{
+        display: flex;
+    }
+
+    
+  }

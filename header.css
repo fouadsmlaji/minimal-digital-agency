@@ -1,0 +1,20 @@
+.header,
+.navbar,
+.navbar-inner {
+    background-color: rgb(29, 29, 29);
+
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 1030;
+    /* Ensure the header is above other content */
+}

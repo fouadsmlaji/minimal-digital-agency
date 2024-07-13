@@ -28,7 +28,8 @@
      </style>
 </head>
 <body>
-    <header class="header">
+    <header class="header" style="  backdrop-filter: blur(10px);">
+        <!--
             <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark" >
                 <div class="navbar-inner p-4" >
                   <h5 class="text-body-emphasis h4">Collapsed content</h5>
@@ -37,29 +38,27 @@
               </div>
             <nav class="navbar navbar-dark" >
                 <div class="container-fluid" >
-                    <!--
+                   
                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                    -->
-                 
                 </div>
               </nav>
+            -->
 
-    <div class="bg-body-tertiary ">
+       
+
+    
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg navbar-light shadow-5-strong ">
                 <div class="container-fluid"  style="padding: 0;">
-                    <img src="./images/IMG_6279.png" alt="" style="height: 32px; padding-right: 10px;">
-                  <a class="navbar-brand" href="#">MiDi</a>
+                    <img src="/images/logo-t.png" onclick="scrollfunction('Home')" alt="" style="height: 32px; padding-right: 10px;" class="header-logo">
+                  <a class="navbar-brand" href="#" onclick="scrollfunction('Home')">MiDi</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <button class="nav-link active" aria-current="page" href="#" onclick="scrollfunction('Home')">Home</button>
-                      </li>
                       <li class="nav-item">
                         <button class="nav-link" href="" onclick="scrollfunction('Approach')">Our Approach</button>
                       </li>
@@ -87,30 +86,24 @@
                 </div>
               </nav>
         </div>
-    </div>
+   
     </header>
 
     <main class="main">
         <!-- Hero section -->
-        <div class="container hero-container" id="Home" >
+        <div class=" hero-container" id="Home" >
             <div class="row hero" style="display: flex;  ">
-                <div class="col hero-img " style=" max-width: 300px;">
-                    <div>
-                        <img src="./images/output.jpg" alt="" style="width: 100%; border-radius: 12px; ">
-                    </div>
-                </div>
-                <div class="col d-flex left-hero" >
+                
+                <div class="col d-flex left-hero " style="text-align: center;">
                     <div>
                         <h1> Launch Your Stunning, Fully-Responsive Website with Ease!</h1>
+                        <div style="display: flex; justify-content: center;">
                         <p>Get your website up and running quickly with our sleek, professional templates. Perfect for any digital agency looking to make an impact.</p>
+
+                        </div>
                         <button onclick="scrollfunction('Pricing')">Start Your Plan</button>
                     </div>
-                </div>
-                <div class="col right-hero" >
-                    <div>
-                        <img src="./images/output.jpg" alt="" style="width: 100%; border-radius: 12px; " class="right-img">
-                    </div>
-                </div>
+                </div> 
             </div>
         </div>
 
@@ -275,7 +268,7 @@
                                 <h5>$10 <span>/ Month</span></h5>
                             </div>
                             <div class="price-check">
-                                <ul class="price-features">
+                                <ul class="price-features" >
                                     <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
                                     <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
                                     <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>

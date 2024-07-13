@@ -5,16 +5,14 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.main{
-    margin-top: 70px;
-}
 
-.left-hero,
-.right-hero {
-    height: 80vh;
+
+.left-hero{
+    height: 100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-image: url('/images/output\ 2.jpg');
 }
 
 
@@ -22,13 +20,20 @@ body {
     font-weight: 900;
     font-size: 3.1rem;
     font-family: "Merriweather", serif;
+    max-width: 1200px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .left-hero p {
     font-weight: 500;
     font-size: 1rem;
-    max-width: 500px;
+    max-width: 700px;
     padding-block: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(204, 204, 204);
 }
 
 .left-hero button {
@@ -37,16 +42,16 @@ body {
     padding-block: 12px;
     padding-left: 26px;
     padding-right: 26px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: black solid 1px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 9999px;
     transition: all 0.5s;
 }
 
 .left-hero button:hover{
-    background-color: white;
-    color:black;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 
 }
 
@@ -153,7 +158,7 @@ h2 {
 }
 
 .price-card {
-    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
     box-shadow: 1px 1px 5px rgb(224, 224, 224);
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;

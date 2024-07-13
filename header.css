@@ -1,20 +1,41 @@
-.header,
-.navbar,
-.navbar-inner {
-    background-color: rgb(29, 29, 29);
+/* Class to add blur effect */
 
-}
+
 
 .navbar-brand {
     font-weight: 900;
     font-family: "Merriweather", serif;
+    transition: all 0.5s;
+}
+
+.navbar-brand:hover{
+
+    color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    font-weight: 500;
+    color: black;
+    transition: all 0.5s;
+}
+
+.nav-link:hover{
+
+    color: rgb(255, 255, 255);
 }
 
 .header {
     position: fixed;
     top: 0;
     width: 100%;
-    transition: top 0.3s;
-    z-index: 1030;
-    /* Ensure the header is above other content */
+    transition: top 0.3s, backdrop-filter 0.3s, background-color 0.3s;
+    z-index: 1030; /* Ensure the header is above other content */
+}
+
+.header-logo{
+    transition: all 0.5s;
+}
+
+.header-logo:hover{
+    filter:invert();
 }

@@ -59,7 +59,6 @@ body {
 
 
 .approach-section {
-    margin-top: 50px;
     padding: 60px 0;
     background-color: #f8f9fa;
 }
@@ -279,6 +278,10 @@ h2 {
 
     .price-card span {
         font-size: 0.7rem;
+    }
+
+    .left-hero h1{
+        font-size: 2.5rem;
     }
 }
 

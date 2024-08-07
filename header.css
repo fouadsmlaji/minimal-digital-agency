@@ -3,39 +3,65 @@
 
 
 .navbar-brand {
-    font-weight: 900;
-    font-family: "Merriweather", serif;
+    font-weight: 500;   
     transition: all 0.5s;
+    font-size: 1.5rem;
 }
 
 .navbar-brand:hover{
 
-    color: rgb(255, 255, 255);
+    
 }
 
 .nav-link{
     font-weight: 500;
-    color: black;
+    color: rgb(78, 78, 78);
     transition: all 0.5s;
+    padding-block: 10px;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    
 }
 
-.nav-link:hover{
 
-    color: rgb(255, 255, 255);
-}
 
 .header {
     position: fixed;
-    top: 0;
+    top: 10px;
     width: 100%;
     transition: top 0.3s, backdrop-filter 0.3s, background-color 0.3s;
-    z-index: 1030; /* Ensure the header is above other content */
+    z-index: 1030; /* Ensure the header is above other conboboxxtent */
+    margin-left: 10px;
+
 }
+
+.header .container{
+    max-width: 1000px;
+    box-shadow: 1px 1px 10px rgb(226, 226, 226);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
 
 .header-logo{
     transition: all 0.5s;
+    height: 50px;
+     padding-right: 10px;
+   
 }
 
 .header-logo:hover{
-    filter:invert();
+
+}
+
+.special-btn{
+
+
+    border-radius: 50px;
+    background-color: #202020;
+    color: white;
+    
 }

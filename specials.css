@@ -65,8 +65,8 @@
     }
 }
 .stars span:nth-child(1){
-    top: 10px;
-    right: -150px;
+    top: 0px;
+    right: 00px;
     left: initial;
     animation-delay: 1s;
     animation-duration: 3s;
@@ -153,4 +153,47 @@
 
 }
 
+@keyframes floattop {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-150px);
+    }
 
+    70% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes floatleft {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+        transform: translateX(-250px);
+    }
+    100% {
+        transform: translateY(-50);
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes floatright {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-150px);
+    }
+    100% {
+        transform: translateY(-50);
+    }
+
+}

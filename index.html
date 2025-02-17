@@ -29,34 +29,21 @@
      </style>
 </head>
 <body>
-    <header class="header   " style="animation: float5 3s ease-in-out infinite;">
-        <!--
-            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark" >
-                <div class="navbar-inner p-4" >
-                  <h5 class="text-body-emphasis h4">Collapsed content</h5>
-                  <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-                </div>
-              </div>
-            <nav class="navbar navbar-dark" >
-                <div class="container-fluid" >
-                   
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-              </nav>
-            -->
 
-       
-
-    
+  <!-- Header section -->
+    <header class="header" style="animation: float5 3s ease-in-out infinite;">
         <div class="container ">
             <nav class="navbar navbar-expand-lg navbar-light shadow-5-strong ">
                 <div class="container-fluid"  style="padding: 0;">
-                    <img src="/images/logo-t.png" onclick="scrollfunction('Home')" alt=""class="header-logo">
+                    <img src="/images/logo-w.png" onclick="scrollfunction('Home')" alt=""class="header-logo">
                   <a class="navbar-brand" href="#" onclick="scrollfunction('Home')">MiDi</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 6l16 0" />
+                      <path d="M4 12l16 0" />
+                      <path d="M4 18l16 0" />
+                    </svg>
                   </button>
                   <div class="collapse navbar-collapse " id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
@@ -88,156 +75,140 @@
                 </div>
               </nav>
         </div>
-   
     </header>
 
     <main class="main">
         <!-- Hero section -->
-        <div class=" hero-container" id="Home" >
-            <div class="row hero" style="display: flex;  ">
-                
-                <div class="col d-flex left-hero " style="text-align: center;">
-                    <div style="padding-block: 100px;">
-                        <img src="/images/logo-t.png" alt="">
-                        <h1> Launch Your Stunning, Fully-Responsive Website with Ease!</h1>
-                        <div style="display: flex; justify-content: center;">
-                        </div>
-                        <button onclick="scrollfunction('Pricing')">Start Your Plan</button>
-                    
+        <section class="hero-section">
+          <div class="container" id="Home" >
+            <div class="col d-flex left-hero " style="text-align: center;">
+                <div class="random-div">
+                    <img src="/images/logo-w.png" alt="">
+                    <h1> Launch Your Stunning, Fully-Responsive Website with Ease!</h1>
+                    <button onclick="scrollfunction('Pricing')">Start Your Plan</button>
                 </div> 
+           </div>
 
-                <section class="stars">
-                    <span></span>   
-                    <span></span>
-                    <span></span>
-                </section>
-        </body>
+           <div class="balls">
+              <div class="ball1 ball"></div>
+              <div class="ball2 ball"></div>
+              <div class="ball3 ball"></div>
+              <div class="ball4 ball"></div>
+           </div>
+    </div>
+        </section>
+
+        <!-- approach section -->
+
+        <section class="approach-section">
+          <div class="approach-div container " id="Approach" style="animation: float1 3s ease-in-out infinite;">
+            <div class="container images-container">
+                <h2>Our Approach</h2>
+             <div class="row approach-row" >
+                 <div class="col-lg-4 col-md-12 mb-lg-0">
+                    <div class="card approach-card app-cons app-right" id="portrait-img" >
+                        <div class=" ">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-square-rounded"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M12 9h.01" />
+                              <path d="M11 12h1v4h1" />
+                              <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+                            </svg>
+                            <h5 class="card-title">Consultation</h5>
+                            <p class="card-text">We begin with a deep dive into your business goals and website needs.</p>
+                        </div>
+                    </div>
+               
+                    <div class="card approach-card Design-and-Planning app-right" id="landscape-img" style="border-radius: 25px; " >
+                        <div class=" "> 
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-edit-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 15l8.385 -8.415a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3z" />
+                            <path d="M16 5l3 3" />
+                            <path d="M9 7.07a7 7 0 0 0 1 13.93a7 7 0 0 0 6.929 -6" />
+                          </svg>
+                            <h5 class="card-title">Design and Planning</h5>
+                            <p class="card-text">We create a customized design plan that aligns with your brand and vision.</p>
+                        </div>
+                    </div>
+                 </div>
+               
+                 <div class="col-lg-4  mb-lg-0">
+                    <div class="card approach-card app-middle" id="landscape-img" style="border-radius: 25px; ">
+                        <div class=" ">
+                           
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code-circle-2"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M8.5 13.5l-1.5 -1.5l1.5 -1.5" />
+                              <path d="M15.5 10.5l1.5 1.5l-1.5 1.5" />
+                              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                              <path d="M13 9.5l-2 5.5" />
+                            </svg>
+                            <h5 class="card-title">Development</h5>
+                            <p class="card-text">Our expert developers bring your website to life with the latest technologies.</p>
+                        </div>
+                    </div>
+               
+                    <div class="card approach-card app-middle " id="portrait-img" style="border-radius: 25px; ">
+                        <div class=" ">
+                       
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-speedtest"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M5.636 19.364a9 9 0 1 1 12.728 0" />
+                              <path d="M16 9l-4 4" />
+                            </svg>
+                            <h5 class="card-title">Optimization</h5>
+                            <p class="card-text">We optimize your website for performance, SEO, and user experience.</p>
+                        </div>
+                    </div>
+                 </div>
+               
+                 <div class="col-lg-4  mb-lg-0">
+                    <div class="card approach-card app-launch app-left" id="portrait-img" >
+                        <div class="">
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                              <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                              <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                            </svg>
+                            <h5 class="card-title">Launch</h5>
+                            <p class="card-text">We ensure a smooth launch, with thorough testing and quality assurance.</p>
+                        </div>
+                    </div>
+               
+                    <div class="card approach-card app-left " id="landscape-img" style="border-radius: 25px;">
+                        <div class=" ">
+                          
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart-handshake"  viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                              <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                              <path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" />
+                              <path d="M12.5 15.5l2 2" />
+                              <path d="M15 13l2 2" />
+                            </svg>
+                            <h5 class="card-title">Ongoing Support</h5>
+                            <p class="card-text">We provide continuous support and maintenance to keep your site running smoothly.</p>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+    
+               
             </div>
-
-
-        </div>
-
-            <div class="approach-section container " id="Approach" style="animation: float1 3s ease-in-out infinite;">
-                <div class="container images-container">
-                    <h2>Our Approach</h2>
-                 <div class="row" style="position: relative; display: flex; justify-content: center; align-items: center;">
-                     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                        <div class="card approach-card " id="portrait-img" style="border-radius: 9999px 500px 500px 500px; text-align: end;">
-                            <div class="card-body ">
-                                <div class="icon">
-                                    <i class="bi bi-chat-dots"></i>
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-square-rounded" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                  <path d="M12 9h.01" />
-                                  <path d="M11 12h1v4h1" />
-                                  <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
-                                </svg>
-                                <h5 class="card-title">Consultation</h5>
-                                <p class="card-text">We begin with a deep dive into your business goals and website needs.</p>
-                            </div>
-                        </div>
-                   
-                        <div class="card approach-card Design-and-Planning  " id="landscape-img" style="border-radius: 25px; text-align: end;" >
-                            <div class="card-body ">
-                                <div class="icon">
-                                    <i class="bi bi-pencil-square"></i>
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-wand" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                  <path d="M6 21l15 -15l-3 -3l-15 15l3 3" />
-                                  <path d="M15 6l3 3" />
-                                  <path d="M9 3a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
-                                  <path d="M19 13a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
-                                </svg>
-                                <h5 class="card-title">Design and Planning</h5>
-                                <p class="card-text">We create a customized design plan that aligns with your brand and vision.</p>
-                            </div>
-                        </div>
-                     </div>
-                   
-                     <div class="col-lg-4  mb-lg-0">
-                        <div class="card approach-card " id="landscape-img" style="border-radius: 25px; text-align: center;">
-                            <div class="card-body ">
-                                <div class="icon">
-                                    <i class="bi bi-gear"></i>
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code-circle-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                  <path d="M8.5 13.5l-1.5 -1.5l1.5 -1.5" />
-                                  <path d="M15.5 10.5l1.5 1.5l-1.5 1.5" />
-                                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                                  <path d="M13 9.5l-2 5.5" />
-                                </svg>
-                                <h5 class="card-title">Development</h5>
-                                <p class="card-text">Our expert developers bring your website to life with the latest technologies.</p>
-                            </div>
-                        </div>
-                   
-                        <div class="card approach-card " id="portrait-img" style="border-radius: 25px; text-align: center;">
-                            <div class="card-body ">
-                                <div class="icon">
-                                    <i class="bi bi-graph-up-arrow"></i>
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-speedtest" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                  <path d="M5.636 19.364a9 9 0 1 1 12.728 0" />
-                                  <path d="M16 9l-4 4" />
-                                </svg>
-                                <h5 class="card-title">Optimization</h5>
-                                <p class="card-text">We optimize your website for performance, SEO, and user experience.</p>
-                            </div>
-                        </div>
-                     </div>
-                   
-                     <div class="col-lg-4  mb-lg-0">
-                        <div class="card approach-card " id="portrait-img"  style="border-radius: 500px 9999px 500px 500px;">
-                            <div class="card-body">
-                                <div class="icon">
-                                    <i class="bi bi-file-earmark-text"></i>
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                  <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
-                                  <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
-                                  <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-                                </svg>
-                                <h5 class="card-title">Launch</h5>
-                                <p class="card-text">We ensure a smooth launch, with thorough testing and quality assurance.</p>
-                            </div>
-                        </div>
-                   
-                        <div class="card approach-card " id="landscape-img" style="border-radius: 25px;">
-                            <div class="card-body ">
-                                <div class="icon">
-                                    <i class="bi bi-person-check"></i>
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart-handshake" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                  <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                  <path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" />
-                                  <path d="M12.5 15.5l2 2" />
-                                  <path d="M15 13l2 2" />
-                                </svg>
-                                <h5 class="card-title">Ongoing Support</h5>
-                                <p class="card-text">We provide continuous support and maintenance to keep your site running smoothly.</p>
-                            </div>
-                        </div>
-                     </div>
-                   </div>
-        
-                   
-                </div>
-              </div>
-
-      
-
-              <section class="customers-section" id="Customers">
+    </div>
+        </section>
+       
+   
+        <!-- customer section -->
+        <section class="customers-section" id="Customers">
                 <div class="container">
                     <h2>Who We Work For</h2>
-                    <div class="row" style="padding-top: 60px;">
+                    <div class="row" >
                         <div class="col-md-6">
-                            <div class="customer-card normal-div animation">
+                            <div class="customer-card normal-div ">
                                 <h3>Our <span>Ideal</span>Customers</h3>
                                 <p>We exclusively work with small businesses. This approach allows us to:</p>
                                 <ul>
@@ -247,66 +218,114 @@
                                 </ul>
                             </div>
                         </div>
+                          <div class="col-md-6">
+                              <div class="customer-card abs-div ">
+                                      <p>Working with small businesses, where only small payments are at stake, keeps us in the driver's seat, feeling relaxed and having fun. Therefore, it is our policy that we will never work for companies with revenue bigger than X or enter into contracts exceeding Y in value. This ensures we maintain our creative freedom and enjoyable work environment, regardless of a company's size or brand.</p>
+
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="ball5 "></div>
+                    </div> 
+                  
+                
+        </section>
+                    
+        <!-- pricing section -->
+        <section class="pricing " id="Pricing">
+            <div class="container">
+              <h2>Pricing</h2>
+              
+              <div class="row row1" >
+                <div class="col-md-6 " style="display:flex; flex-direction: column; justify-content: center; padding: 0px 20px;">
+                    <div class="static-title">
+                        <h3>Single-page website - 300$</h3>
+                        <p>• One page containing all content <br>
+                          • Menu that scrolls page to clicked section <br>
+                          • Professional look & feel <br>
+                          • Responsive design that works on mobile & tablet <br>
+                          • Unlimited content changes (images & text) <br>
+                          • Hosted for 1 year <br>
+                          • Contact form enquiries delivered to your mailbox <br>
+                          • SEO keywords & meta tags <br>
+                          • Privacy Policy page (simple text design) <br>
+                          • Terms & Conditions page (simple text design) </p>
                     </div>
-                    <div class="row justify-content-end d-flex ">
-                        <div class="col-md-6">
-                            <div class="customer-card abs-div animation2">
-                                    <p>Working with small businesses, where only small payments are at stake, keeps us in the driver's seat, feeling relaxed and having fun. Therefore, it is our policy that we will never work for companies with revenue bigger than X or enter into contracts exceeding Y in value. This ensures we maintain our creative freedom and enjoyable work environment, regardless of a company's size or brand.</p>
-                              
+                </div>
+                <div class="col-md-6 " style="display: flex; justify-content: end;">
+                    <div class="price-img-div">
+                    </div>
+                </div>
+            </div>
+            <div class="row row1 row12"  >
+                <div class="col-md-6 " style="display: flex; justify-content: start;">
+                    <div class="price-img-div2">
+                    </div>
+                </div>
+                <div class="col-md-6 " style="display:flex; flex-direction: column; justify-content: center; align-items: end; padding: 0px 20px;">
+                    <div class="static-title2">
+                        <h3>Multi-page website - 500$</h3>
+                        <p>
+                          • Up to 5 pages of content & graphics <br>
+                          • Professional look & feel <br>
+                          • Responsive design that works on mobile & tablet <br>
+                          • Unlimited content changes (images & text) <br>
+                          •  Hosted for 1 year <br>
+                          • Contact form enquiries delivered to your mailbox <br>
+                          • SEO keywords & meta tags <br>
+                          • Privacy Policy page (simple text design) <br>
+                          • Terms & Conditions page (simple text design) <br>
+                        </p>
+                      
+                    </div>
+                </div>
+                
+            </div>
+            <!--
+              <div class="row row2">
+                <h2>Social Media Plans</h2>
+              
+                <div class="col-md-4">
+                    <div class="pricing-card1">
+                        <div class="price-description" >
+                            <p>One Account</p>
+                            <h5>$10 <span>/ Month</span></h5>
+                        </div>
+                        <div class="price-check">
+                            <ul class="price-features">
+                                <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
+                                <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
+                                <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
+                                <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card2" id="most-popular">
+                        <div class="most-popular"><span>MOST POPULAR</span></div>
+                        <div class="offer-div">
+                            <div class="price-description" >
+                                <p>Three Accounts</p>
+                                <h5>$19 <span>/ Month</span></h5>
+                            </div>
+                            <div class="price-check">
+                                <ul class="price-features">
+                                    <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-             
-  
-                
-          
-
-    <section class="pricing " id="Pricing">
-        <div class="container">
-          <h2>Pricing</h2>
-          
-          <div class="row row1" style="margin-block: 100px;">
-            <div class="col-md-5 " style="display:flex; flex-direction: column; justify-content: center;">
-                <div class="static-title">
-                    <h3>Host Your Static Website <span>Forever</span></h3>
-                    <p><b style="color: black;">For just $200</b>, you can have a static website created and hosted indefinitely on your own custom domain. Enjoy a permanent, professional online presence without ongoing costs.</p>
-                </div>
-            </div>
-            <div class="col-md-7 " style="display: flex; justify-content: end;">
-                <div class="price-img-div">
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="price-img">
-                </div>
-            </div>
-        </div>
-        <div class="row row1" style=" margin-block: 130px;" >
-            <div class="col-md-7 " style="display: flex; justify-content: start;">
-                <div class="price-img-div2">
-                    <img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="price-img">
-                </div>
-            </div>
-            <div class="col-md-5 " style="display:flex; flex-direction: column; justify-content: center; align-items: end;">
-                <div class="static-title2">
-                    <h3>Discover Our Social media Plans!</h3>
-                    <p>
-                        Build is free, monthly payment includes: hosting & any content updates. <br>
-                        Single-page website = <b style="color: black;">10$ / mo</b>  <br>
-                        Multi-page website = <b style="color: black;">30$ / mo </b> 
-                    </p>
-                   
-                </div>
-            </div>
-            
-        </div>
-          <div class="row row2">
-            <h2>Social Media Plans</h2>
-          
-            <div class="col-md-4">
-                <div class="pricing-card1">
-                    <div class="price-description" >
-                        <p>One Account</p>
-                        <h5>$10 <span>/ Month</span></h5>
+                <div class="col-md-4">
+                    <div class="pricing-card1">
+                      <div class="price-description" >
+                        <p>Two Accounts</p>
+                        <h5>$16 <span>/ Month</span></h5>
                     </div>
                     <div class="price-check">
                         <ul class="price-features">
@@ -315,251 +334,206 @@
                             <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
                             <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
                         </ul>
+                    </div></div>
+                </div>      
+              </div>
+                <div class="row row2">
+                    <div class="col-md-4">
+                        <div class="pricing-card3" style="animation: float4 3s ease-in-out infinite;">
+                            <div class="price-description" >
+                                <p>Four Accounts</p>
+                                <h5>$23 <span>/ Month</span></h5>
+                            </div>
+                            <div class="price-check">
+                                <ul class="price-features">
+                                    <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>               
+                    <div class="col-md-4">
+                        <div class="pricing-card3" style="animation: float3 3s ease-in-out infinite;">
+                            <div class="price-description" >
+                                <p>Five Accounts</p>
+                                <h5>$25 <span>/ Month</span></h5>
+                            </div>
+                            <div class="price-check">
+                                <ul class="price-features">
+                                    <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
+                                    <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pricing-card2" id="most-popular">
-                    <div class="most-popular"><span>MOST POPULAR</span></div>
-                    <div class="offer-div">
-                        <div class="price-description" >
-                            <p>Three Accounts</p>
-                            <h5>$19 <span>/ Month</span></h5>
-                        </div>
-                        <div class="price-check">
-                            <ul class="price-features">
-                                <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pricing-card1">
-                  <div class="price-description" >
-                    <p>Two Accounts</p>
-                    <h5>$16 <span>/ Month</span></h5>
-                </div>
-                <div class="price-check">
-                    <ul class="price-features">
-                        <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
-                        <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
-                        <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
-                        <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
+                <div style="padding-top: 100px;">
+                    <p><b style="color: black; font-size: 2rem;">Packages:</b></p>
+                    <ul>
+                        <li class="plan">Single-page website + 1 SM account = $15 / mo</li>
+                        <li class="plan">Single-page website + 2 SM accounts = $20 / mo</li>
+                        <li class="plan">Single-page website + 3 SM accounts = $25 / mo</li>
                     </ul>
-                </div></div>
-            </div>      
-          </div>
-            <div class="row row2">
-                <div class="col-md-4">
-                    <div class="pricing-card3" style="animation: float4 3s ease-in-out infinite;">
-                        <div class="price-description" >
-                            <p>Four Accounts</p>
-                            <h5>$23 <span>/ Month</span></h5>
-                        </div>
-                        <div class="price-check">
-                            <ul class="price-features">
-                                <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
-               
-                <div class="col-md-4">
-                    <div class="pricing-card3" style="animation: float3 3s ease-in-out infinite;">
-                        <div class="price-description" >
-                            <p>Five Accounts</p>
-                            <h5>$25 <span>/ Month</span></h5>
-                        </div>
-                        <div class="price-check">
-                            <ul class="price-features">
-                                <li><i class="fas lni lni-checkmark-circle"></i> 1 post per week per account</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Generated graphics</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Generated text</li>
-                                <li><i class="fas lni lni-checkmark-circle"></i> Free revisions</li>
-                            </ul>
-                        </div>
-                    </div>
+                -->
+              </div>
+              
+            </div>
+        </section>
+        
+         <!-- testimonial section -->
+        <section class="testimonial-section" >
+            <h2 >Feedbacks</h2>
+            <div class="row text-center container mx-auto" style="display: flex; align-items: center;">
+              <div class="ball6"></div>
+              <div class="ball7"></div>
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex clint-img-div mb-4">
+                  <img src="https://www.thesun.co.uk/wp-content/uploads/2019/02/Comp31.jpg"
+                    class="rounded-circle  client-img" width="150" height="150" />
                 </div>
-            </div>
-            <div style="padding-top: 100px;">
-                <p><b style="color: black; font-size: 2rem;">Packages:</b></p>
-                <ul>
-                    <li class="plan">Single-page website + 1 SM account = $15 / mo</li>
-                    <li class="plan">Single-page website + 2 SM accounts = $20 / mo</li>
-                    <li class="plan">Single-page website + 3 SM accounts = $25 / mo</li>
-                </ul>
-            </div>
+                <h5 class="mb-3 text-blue">Maria Smantha</h5>
+                <h6 class="text-primary mb-3 client-job">Web Developer</h6>
+                <p class="px-xl-3 text-white">
+                  <i class="fas fa-quote-left pe-2 "></i>This website service exceeded my expectations! The team was incredibly responsive and attentive to my needs. They created a stunning single-page site for my business, and I've received numerous compliments from my clients. Highly recommend!
+                </p>
             
+              </div>
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex clint-img-div mb-4">
+                  <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-07.jpg"
+                    class="rounded-circle  client-img" width="150" height="150" />
+                </div>
+                <h5 class="mb-3  text-blue">John Smith</h5>
+                <h6 class="text-primary mb-3 client-job">Graphic Designer</h6>
+                <p class="px-xl-3 text-white">
+                  <i class="fas fa-quote-left pe-2"></i>I am extremely satisfied with the service provided. The team managed my social media accounts flawlessly, and the content they created was top-notch. It has freed up so much of my time, and my online engagement has never been better. Thank you!
+                </p>
+
+              </div>
+              <div class="col-md-4 mb-0">
+                <div class="d-flex clint-img-div mb-4">
+                  <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-01.jpg"
+                    class="rounded-circle  client-img" width="150" height="150" />
+                </div>
+                <h5 class="mb-3  text-blue">Lisa Cudrow</h5>
+                <h6 class="text-primary mb-3 client-job">Marketing Specialist</h6>
+                <p class="px-xl-3 text-white">
+                  <i class="fas fa-quote-left pe-2"></i>Amazing service! They built a comprehensive multi-page website for my company, and the results were fantastic. The site is easy to navigate, visually appealing, and has significantly boosted our online presence. I couldn't be happier with their work.
+                </p>
+            </div>
           </div>
-          
-        </div>
-    </section>
-        
-    <!-- testimonial Carousel -->
-
-   
-
-    <section style=" display: flex; padding-block: 50px; flex-direction: column;">
-
-            <h2 style="padding-top: 50px; padding-bottom: 20px;">Feedbacks</h2>
-        
-
-  <div class="row text-center container mx-auto" style="display: flex; align-items: center;">
-    <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://www.thesun.co.uk/wp-content/uploads/2019/02/Comp31.jpg"
-          class="rounded-circle shadow-1-strong client-img" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">Maria Smantha</h5>
-      <h6 class="text-primary mb-3">Web Developer</h6>
-      <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>This website service exceeded my expectations! The team was incredibly responsive and attentive to my needs. They created a stunning single-page site for my business, and I've received numerous compliments from my clients. Highly recommend!
-      </p>
+        </section>
   
-    </div>
-    <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-07.jpg"
-          class="rounded-circle shadow-1-strong client-img" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">John Smith</h5>
-      <h6 class="text-primary mb-3">Graphic Designer</h6>
-      <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>I am extremely satisfied with the service provided. The team managed my social media accounts flawlessly, and the content they created was top-notch. It has freed up so much of my time, and my online engagement has never been better. Thank you!
-      </p>
-
-    </div>
-    <div class="col-md-4 mb-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-01.jpg"
-          class="rounded-circle shadow-1-strong client-img" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">Lisa Cudrow</h5>
-      <h6 class="text-primary mb-3">Marketing Specialist</h6>
-      <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>Amazing service! They built a comprehensive multi-page website for my company, and the results were fantastic. The site is easy to navigate, visually appealing, and has significantly boosted our online presence. I couldn't be happier with their work.
-      </p>
-
-    </div>
-  </div>
-</section>
-    
-    
-
-
-
         <!-- Contact Us -->
-      <!-- Contact 1 - Bootstrap Brain Component -->
-<section class="bg-light py-3 py-md-5">
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-          <h2 class="mb-4  text-center">Contact Us</h2>
-          
-          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
-        </div>
-      </div>
-    </div>
-  
-    <div class="container">
-      <div class="row justify-content-lg-center">
-        <div class="col-12 col-lg-9">
-          <div class="bg-white border shadow-sm overflow-hidden" style="border-radius: 50px; box-shadow: 1px 1px 10px rgb(158, 158, 158);">
-  
-            <form action="#!">
-              <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
-                <div class="col-12">
-                  <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
-                  <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
-                </div>
-                <div class="col-12 col-md-6">
-                  <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
-                  <div class="input-group">
-                    <span class="input-group-text">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                      </svg>
-                    </span>
-                    <input type="email" class="form-control" id="email" name="email" value="" required>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <label for="phone" class="form-label">Phone Number</label>
-                  <div class="input-group">
-                    <span class="input-group-text">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                      </svg>
-                    </span>
-                    <input type="tel" class="form-control" id="phone" name="phone" value="">
-                  </div>
-                </div>
-                <div class="col-12">
-                  <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
-                  <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-                </div>
-                <div class="col-4 mx-auto">
-                  <div class="d-grid">
-                    <button class="btn btn-lg" type="submit" style="background-color: black; color: white; border-radius: 9999px;">Submit</button>
-                  </div>
+        <section class="contact-section py-3 py-md-5" >
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                <h2 class="mb-4">Contact Us</h2>
+                
+                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+              </div>
+            </div>
+          </div>
+        
+          <div class="container">
+            <div class="row justify-content-lg-center">
+              <div class="col-12 col-lg-9 form-div">
+                <div class="bg-white border overflow-hidden" style="border-radius: 50px; box-shadow: 1px 1px 100px #523f78; ">
+        
+                  <form action="#!">
+                    <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+                      <div class="col-12">
+                        <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control border-dark" id="fullname" name="fullname" value="" required>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                        <div class="input-group">
+                          <span class="input-group-text border-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg>
+                          </span>
+                          <input type="email" class="form-control border-dark" id="email" name="email" value="" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="phone" class="form-label ">Phone Number</label>
+                        <div class="input-group">
+                          <span class="input-group-text border-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                          </span>
+                          <input type="tel" class="form-control border-dark" id="phone" name="phone" value="">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="message" class="form-label ">Message <span class="text-danger">*</span></label>
+                        <textarea class="form-control border-dark" id="message" name="message" rows="3" required></textarea>
+                      </div>
+                      <div class="col-4 mx-auto">
+                        <div class="d-grid">
+                          <button class="btn btn-lg" type="submit" style="background-color: black; color: white; border-radius: 9999px;">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+        
                 </div>
               </div>
-            </form>
-  
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-        
-    </main>
-
-    <div></div>
-    <div class="container">
-        <footer class="py-5">
-          
-      
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-              <p>© 2024 Minimal Digital Agency, Inc. All rights reserved.</p>
-              <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/company/minimal-digital-agency/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
-                  <path d="M8 11l0 5" />
-                  <path d="M8 8l0 .01" />
-                  <path d="M12 16l0 -5" />
-                  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                </svg></a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="#"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                  <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-                  </svg></a></li>
-               
-                <!--
-                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                  <path d="M16.5 7.5l0 .01" />
-                </svg></a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg></a></li>
-                
-                -->
-              </ul>
             </div>
-          </footer>
-      </div>
+          </div>
+      </section>
+      
+  
+    </main>
+    
+    <!-- Footer section -->
+        <div class="container">
+          <footer class=" footer">
+            
+        
+              <div class="d-flex flex-row flex-sm-row justify-content-between py-4 mt-4 border-top text-white">
+                <p>© 2024 Minimal Digital Agency, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/company/minimal-digital-agency/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                  </svg></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg></a></li>
+                
+                  <!--
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path d="M16.5 7.5l0 .01" />
+                  </svg></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                  </svg></a></li>
+                  
+                  -->
+                </ul>
+              </div>
+            </footer>
+        </div>
     <!-- bootstrap -->
      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
